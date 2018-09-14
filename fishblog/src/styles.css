@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://cdn.quilljs.com/1.2.2/quill.snow.css');
+@import url('https://cdn.quilljs.com/1.2.2/quill.bubble.css');
+
+/* Editor toolbar */
+.ql-formats:not(:last-child) {
+  margin-right: 7px !important;
+  padding-right: 8px !important;
+  border-right: 1px solid #aaa !important;
+}
